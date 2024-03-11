@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Acme", sans-serif;
+}
+
+header{
+    width: 100%;
+    top: 0;
+    left: 0;
+    transition: .5s;
+}
+
+#header{
+    border-bottom: solid 2px #000000;
+    position: fixed;
+}
+
+
+.topo{
+    max-width: 1280px;
+    margin: auto;
+}    
+    
+.itens{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}   
+
+.main-header{
+    list-style-type: none;
+}
+
+header ul li{
+    display: inline-block;
+    margin: 0 40px;
+}
+
+header ul li a{
+    color: #FE5858;
+    text-decoration: none;
+}
+
+body{
+    margin: 0px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #585858;
+    position: relative;
+    min-height: 185vh;
+}
+
+header.rolagem{
+    background-color: #ffffff;
+}
+
+article{
+    padding: 0px 4%;
+}
+
+article a{
+    text-decoration: none;
+}
+
+.titulo1{
+    color: #000000;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+article header h2 a{
+    font-size: 50px;
+    color: #000000;
+}
+
+
+article header h4{
+    margin-top: 20px;
+    font-size: 20px;
+    color: #585858;
+}
+
+article header h6{
+    margin-top: 50px;
+}
+
+article header a img{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.materia1{
+    display: flex;
+    border: solid .8px #000000;
+    background-color: #ffffff;
+    margin-top: 130px;
+    border-right: solid 50px #000000;
+}
+
+.materia2{
+    display: flex;
+    justify-content: space-between;
+    border: solid .8px #000000;
+    border-left: solid 30px #000000;
+    border-right: solid 30px #000000;
+    background-color: #ffffff;
+    margin-top: 30px;
+    padding: 10px;
+    text-align: center;
+}
+
+article a h3{
+    color: #000000;
+}
+
+article a h2{
+    color: #000000;
+}
+
+.materia3{
+    display: flex;
+    background-color: #ffffff;
+    margin-top: 30px;
+    padding: 10px;
+    border-right: solid 50px #000000;
+}
+
+.titulo2{
+    margin-left: 20px;
+}
+
+.titulo2 h4{
+    margin-top: 10px;
+    color: #585858;
+}
+
+.titulo2 h6{
+    margin-top: 10px;
+}
+
+.materia4{
+    display: flex;
+    background-color: #ffffff;   
+    margin-top: 30px;
+    padding: 10px;
+    border-right: solid 50px #000000;
+}
+
+.titulo3{
+    margin-left: 20px;
+}
+
+.titulo3 h4{
+    margin-top: 10px;
+    color: #585858;
+}
+
+.titulo3 h6{
+    margin-top: 10px;
+}
+
+div.colunas{
+    display: flex;
+}
+
+.materia5{
+    display: flex;
+    background-color: #ffffff;   
+    padding: 10px;
+    border-right: solid 50px #000000;
+}
+
+.titulo4{
+    margin-left: 15px;
+}
+
+.titulo4 h4{
+    margin-top: 10px;
+    color: #585858;
+}
+
+.titulo4 h6{
+    margin-top: 10px;
+}
+
+.materia6{
+    display: flex;
+    background-color: #ffffff;   
+    padding: 10px;
+    border-right: solid 50px #000000;
+}
+
+.titulo5{
+    margin-left: 20px;
+}
+
+.titulo5 h4{
+    margin-top: 10px;
+    color: #585858;
+}
+
+.titulo5 h6{
+    margin-top: 10px;
+}
+
+div.colunas2{
+    display: flex;
+}
+
+footer{
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    
+    outline: solid 20px #000000;
+}
+
+.materiastart{
+    display: flex;
+    background-color: #ffffff;   
+    margin-top: 130px;
+    padding: 10px;
+    border-right: solid 50px #000000;
+}
+
+.materiastartb{
+    display: flex;
+    background-color: #ffffff;   
+    padding: 10px;
+    margin-top: 10px;
+    border-right: solid 50px #000000;
+}
+
+.titulogeral{
+    margin-left: 20px;
+}
+
+.titulogeral h4{
+    margin-top: 10px;
+    color: #585858;
+}
+
+.titulogeral h6{
+    margin-top: 10px;
+}
+
+.materiaprincipal{
+    background-color: #ffffff;   
+    margin-top: 130px;
+    padding: 10px;
+}
+
+.materiaprincipal h1{
+    font-size: 50px;
+}
+
+.materiaprincipal img{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 350px;
+}
+
+.tituloprincipal{
+    font-size: 20px;
+}
+
+.tituloprincipal span{
+    color: #FE5858;
+}
+
+.tituloprincipal h3{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.tituloprincipal p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
